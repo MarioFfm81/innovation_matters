@@ -11,120 +11,126 @@
     <nav class="navbar">
         <div class="logo">time:matters</div>
         <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#industries">Industries</a></li>
-            <li><a href="#sustainability">Sustainability</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" data-i18n="nav_about"></a></li>
+            <li><a href="#services" data-i18n="nav_services"></a></li>
+            <li><a href="#industries" data-i18n="nav_industries"></a></li>
+            <li><a href="#sustainability" data-i18n="nav_sustainability"></a></li>
+            <li><a href="#contact" data-i18n="nav_contact"></a></li>
         </ul>
+        <select id="language-switcher" aria-label="Language selector">
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="nl">Nederlands</option>
+            <option value="zh">中文</option>
+        </select>
         <button class="burger" aria-label="Toggle navigation">
             <span></span><span></span><span></span>
         </button>
     </nav>
 
     <section class="hero">
-        <h1>Your expert for time‑critical transport solutions</h1>
-        <p>Fast. Reliable. Global.</p>
+        <h1 data-i18n="hero_title"></h1>
+        <p data-i18n="hero_subtitle"></p>
         <!-- Slide 1 - Cover -->
-        <img src="images/slide1_cover_placeholder.jpg" alt="Cover image – see Slide 1 (Cover)">
+        <img src="images/slide1_cover_placeholder.jpg" data-i18n-alt="alt_hero_cover" alt="">
     </section>
 </header>
 
 <main>
     <section id="about" class="about">
-        <h2>Quick Facts</h2>
+        <h2 data-i18n="about_title"></h2>
         <ul class="facts">
-            <li><strong>&gt;269 m EUR</strong> revenue (2022)</li>
-            <li><strong>&gt;346,500</strong> shipments per year</li>
-            <li><strong>&gt;320</strong> employees across 6 offices on 3 continents</li>
-            <li>ISO 9001:2015 &amp; ISO 14001:2015 certified</li>
+            <li data-i18n="about_fact1"></li>
+            <li data-i18n="about_fact2"></li>
+            <li data-i18n="about_fact3"></li>
+            <li data-i18n="about_fact4"></li>
         </ul>
     </section>
 
     <section id="services" class="services">
-        <h2>Our Services</h2>
+        <h2 data-i18n="services_title"></h2>
         <div class="service-grid">
             <article class="service-card">
                 <!-- Slide: “Sameday Air – Same day transports worldwide.” -->
-                <img src="images/slide_sameday_air_placeholder.jpg" alt="Sameday Air – slide titled 'Sameday Air – Same day transports worldwide.'">
-                <h3>Sameday Air</h3>
-                <p>Same‑day air transports worldwide with higher loading priority than express cargo.</p>
+                <img src="images/slide_sameday_air_placeholder.jpg" data-i18n-alt="alt_sameday_air" alt="">
+                <h3 data-i18n="service_sameday_air_title"></h3>
+                <p data-i18n="service_sameday_air_desc"></p>
             </article>
 
             <article class="service-card">
                 <!-- Slide: “Sameday Rail – sameday transports by train.” -->
-                <img src="images/slide_sameday_rail_placeholder.jpg" alt="Sameday Rail – slide titled 'Sameday Rail – sameday transports by train.'">
-                <h3>Sameday Rail</h3>
-                <p>Eco‑friendly same‑day transports on Deutsche Bahn long‑distance trains.</p>
+                <img src="images/slide_sameday_rail_placeholder.jpg" data-i18n-alt="alt_sameday_rail" alt="">
+                <h3 data-i18n="service_sameday_rail_title"></h3>
+                <p data-i18n="service_sameday_rail_desc"></p>
             </article>
 
             <article class="service-card">
                 <!-- Slide: “Sameday Road – Transport by road without size and weight limitations, at any time.” -->
-                <img src="images/slide_sameday_road_placeholder.jpg" alt="Sameday Road – slide titled 'Sameday Road – Transport by road…'">
-                <h3>Sameday Road</h3>
-                <p>Time‑critical road transport without size or weight limits, available 24/7.</p>
+                <img src="images/slide_sameday_road_placeholder.jpg" data-i18n-alt="alt_sameday_road" alt="">
+                <h3 data-i18n="service_sameday_road_title"></h3>
+                <p data-i18n="service_sameday_road_desc"></p>
             </article>
 
             <article class="service-card">
                 <!-- Slide: “Next Flight Out – global service on all passenger and cargo aircrafts.” -->
-                <img src="images/slide_nfo_placeholder.jpg" alt="Next Flight Out – slide titled 'Next Flight Out – global service…'">
-                <h3>Next Flight Out</h3>
-                <p>Global service on passenger &amp; cargo aircraft with the shortest turnaround times.</p>
+                <img src="images/slide_nfo_placeholder.jpg" data-i18n-alt="alt_nfo" alt="">
+                <h3 data-i18n="service_nfo_title"></h3>
+                <p data-i18n="service_nfo_desc"></p>
             </article>
 
             <article class="service-card">
                 <!-- Slide: “time:matters On Board Courier (OBC) personally accompanied transports.” -->
-                <img src="images/slide_obc_placeholder.jpg" alt="On Board Courier – slide titled 'time:matters On Board Courier (OBC)…'">
-                <h3>On Board Courier</h3>
-                <p>Personally accompanied transports via 12,000+ multilingual couriers worldwide.</p>
+                <img src="images/slide_obc_placeholder.jpg" data-i18n-alt="alt_obc" alt="">
+                <h3 data-i18n="service_obc_title"></h3>
+                <p data-i18n="service_obc_desc"></p>
             </article>
 
             <article class="service-card">
                 <!-- Slide: “Charter – Designated aircraft for your shipment.” -->
-                <img src="images/slide_charter_placeholder.jpg" alt="Charter – slide titled 'Charter – Designated aircraft for your shipment.'">
-                <h3>Charter</h3>
-                <p>Designated aircraft chartered exclusively for your shipment to 1,700 destinations.</p>
+                <img src="images/slide_charter_placeholder.jpg" data-i18n-alt="alt_charter" alt="">
+                <h3 data-i18n="service_charter_title"></h3>
+                <p data-i18n="service_charter_desc"></p>
             </article>
 
             <article class="service-card">
                 <!-- Slide: “Spare Parts & Service Logistics Innight service for the spare parts supply.” -->
-                <img src="images/slide_spare_parts_placeholder.jpg" alt="Spare Parts Logistics – slide titled 'Spare Parts & Service Logistics Innight service…'">
-                <h3>Spare Parts Logistics</h3>
-                <p>In‑night and next‑day delivery network for critical spare parts across Europe.</p>
+                <img src="images/slide_spare_parts_placeholder.jpg" data-i18n-alt="alt_spare_parts" alt="">
+                <h3 data-i18n="service_spare_parts_title"></h3>
+                <p data-i18n="service_spare_parts_desc"></p>
             </article>
         </div>
     </section>
 
     <section id="industries" class="industries">
-        <h2>Industry Expertise</h2>
+        <h2 data-i18n="industries_title"></h2>
         <ul class="industry-list">
-            <li>Life &amp; Health</li>
-            <li>MedTech</li>
-            <li>Aviation &amp; Aerospace</li>
-            <li>Automotive</li>
-            <li>High Tech &amp; Semiconductor</li>
-            <li>Industrial Machinery &amp; Equipment</li>
+            <li data-i18n="industries_item1"></li>
+            <li data-i18n="industries_item2"></li>
+            <li data-i18n="industries_item3"></li>
+            <li data-i18n="industries_item4"></li>
+            <li data-i18n="industries_item5"></li>
+            <li data-i18n="industries_item6"></li>
         </ul>
         <!-- Slide: “Dedicated experts for your industry.” -->
-        <img src="images/slide_industries_placeholder.jpg" alt="Industry icons – slide titled 'Dedicated experts for your industry.'">
+        <img src="images/slide_industries_placeholder.jpg" data-i18n-alt="alt_industries" alt="">
     </section>
 
     <section id="sustainability" class="sustainability">
-        <h2>Sustainability in Motion</h2>
-        <p>We avoid, reduce and offset emissions through optimized routing, SAF investments and global reforestation projects.</p>
+        <h2 data-i18n="sustainability_title"></h2>
+        <p data-i18n="sustainability_desc"></p>
         <!-- Slide: “Sustainability in motion: Our contribution to more sustainability.” -->
-        <img src="images/slide_sustainability_placeholder.jpg" alt="Sustainability graphic – slide titled 'Sustainability in motion…'">
+        <img src="images/slide_sustainability_placeholder.jpg" data-i18n-alt="alt_sustainability" alt="">
     </section>
 
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Our logistics experts are available <strong>24/7</strong> worldwide.</p>
-        <a href="https://www.time-matters.com" class="btn">Visit time‑matters.com</a>
+        <h2 data-i18n="contact_title"></h2>
+        <p data-i18n="contact_desc"></p>
+        <a href="https://www.time-matters.com" class="btn" data-i18n="contact_button"></a>
     </section>
 </main>
 
 <footer>
-    <p>&copy; 2025 time:matters GmbH. All rights reserved.</p>
+    <p data-i18n="footer_text"></p>
 </footer>
 
 <script src="script.js"></script>

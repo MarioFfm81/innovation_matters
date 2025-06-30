@@ -64,6 +64,15 @@ header {
     color: var(--primary);
 }
 
+#language-switcher {
+    margin-left: var(--spacing);
+    background: var(--secondary);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: var(--radius);
+    padding: 0.25rem;
+}
+
 /* Burger menu */
 .burger {
     display: none;
